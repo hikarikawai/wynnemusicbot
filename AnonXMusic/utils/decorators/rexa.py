@@ -22,7 +22,7 @@ def subcribe(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**Hallo Kak {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel, Setelah itu silahkan Play Musik/Video Kamu**",
+                        f"**ʜᴀʟʟᴏ ᴋᴀᴋ😊 . ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs ᴍᴀsᴜᴋ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ, sᴇᴛᴇʟᴀʜ ɪᴛᴜ sɪʟᴀʜᴋᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴋ/ᴠɪᴅᴇᴏ ᴋᴀᴍᴜ**",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[InlineKeyboardButton("🎸 Join Channel", url=yuhu)]]
