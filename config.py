@@ -22,9 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Your User ID.
-OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1224143544").split())
-)  # Input type must be interger
+OWNER_ID = int(getenv("OWNER_ID", 1224143544))
 
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
