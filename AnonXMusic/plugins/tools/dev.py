@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from AnonXMusic import app
 from config import OWNER_ID
-from AnonXMusic import SUDOERS
+from AnonXMusic.misc import SUDOERS
 
 async def aexec(code, client, message):
     exec(
