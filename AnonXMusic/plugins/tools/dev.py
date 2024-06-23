@@ -12,7 +12,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from AnonXMusic import app
 from config import OWNER_ID
-from config import KING_ID
 from AnonXMusic.misc import SUDOERS
 
 
@@ -33,7 +32,6 @@ async def edit_or_reply(msg: Message, **kwargs):
 @app.on_edited_message(
     filters.command("eval")
     & filters.user(OWNER_ID)
-    & filters.user(KING_ID)
     & ~filters.forwarded
     & ~filters.via_bot
     & SUDOERS
@@ -41,7 +39,6 @@ async def edit_or_reply(msg: Message, **kwargs):
 @app.on_message(
     filters.command("eval")
     & filters.user(OWNER_ID)
-    & filters.user(KING_ID)
     & ~filters.forwarded
     & ~filters.via_bot
     & SUDOERS
