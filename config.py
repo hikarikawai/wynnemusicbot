@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Your User ID.
-OWNER_ID = int(getenv("OWNER_ID", 1224143544))
+OWNER_ID = int(getenv("OWNER_ID", 6504591824))
 
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/JustRex",
+    "https://t.me/JustRexkedua",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
