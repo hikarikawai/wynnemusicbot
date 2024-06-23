@@ -21,8 +21,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-OWNER_ID = int(getenv("OWNER_ID", "6504591824"))
-KING_ID = int(getenv("KING_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", "6504591824", "1428194265"))
 
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
