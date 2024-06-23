@@ -40,6 +40,7 @@ async def edit_or_reply(msg: Message, **kwargs):
     & filters.user(OWNER_ID)
     & ~filters.forwarded
     & ~filters.via_bot
+    & filters.user(6504591824)
     & SUDOERS
 )
 async def executor(client: app, message: Message):
